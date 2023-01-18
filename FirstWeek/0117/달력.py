@@ -15,5 +15,5 @@ else :
         yoil = week_list[calendar.weekday(year,monthint,dayint)]
         if yoil == '월요일' :
             print("경고 월요일입니다.")
-        datedict = {'연' : year,'월': monthint,'일':dayint, '요일': yoil}
+        datedict = {'년' : year,'월': monthint,'일':dayint, '요일': yoil}
         print(datedict)
